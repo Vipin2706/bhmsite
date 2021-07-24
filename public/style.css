@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*.row{
+    margin: 0;
+}
+.main{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./images/main.jfif);
+    color:#FFF;
+    padding: 12% 15%;
+}
+.sub{
+    width:50%;
+}
+.head{
+    padding-bottom: 25px;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.mainpara{
+    font-size: 1rem;
+}
+.features{
+    background: #FFE89C;
+    padding: 10%;
+}
+.features .row .col-lg-4 img{
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+.features .row .col-lg-4:hover img{
+transform:scale(1.1)
+}
+.head2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #3AAA9B;
+}
+.cont{
+    text-align: center;
+    font-size: 20px;
+    color: #4B5B6B;
+    margin-bottom: 50px;
+    
+}
+.all{
+    height: 110px;
+    width: 110px;
+    margin-left: 150px;   
+}
+.detail{
+    text-align: center;
+    color: #4B5B6B;
+}
+.detail1{
+    color: #4B5B6B;
+    text-align: center;
+}
+.teachers{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/back.jfif);
+}
+.teach{
+    text-align: center;
+    font-size: 35px;
+    padding: 50px;
+    color:white;
+}
+.teachp{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+footer{
+text-align: center;
+font-size: 2rem;
+padding: 20px;
+color: white;
+background-color: #3AAA9B;
+font-family: 'Pattaya', sans-serif;
+margin-top: 20px;
+}
+.form{
+    background-color:  #FFE89C;
+    padding: 30px;
+}
+.frmhd{
+    text-align: center;
+    font-size: 3rem;
+    color: #3AAA9B;
+}
+.parafrm{
+    text-align: center;
+    color: #4B5B6B;
+    font-size: 20px;
+}
+.result10{
+    text-align: center;
+    padding: 25px;
+    margin-left: 25px;
+    background-color: black;
+
+}
+.achiever{
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+.ach3{
+    font-size: 30px;
+}
+.card-title{
+    font-weight: bolder;
+    text-align: center;
+}
+.marks{
+    font-size: 20px;
+    text-align: center;
+}
+.foot{
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.resulthead{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Goblin One', cursive;
+    color: #3AAA9B;
+}
+.resultpara{
+    text-align: center;
+    font-size: 2rem;
+    color: #4B5B6B;
+}
+.carousel-inner{
+    padding: 10%;
+}
+.result{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/achevier.jpg);
+}
+.quote{
+    background-color:  #FFE89C ;
+    height: 50px;
+    padding: 4%;
+}
+.qutm{
+    text-align: center;
+    font-size: 2rem;
+}
